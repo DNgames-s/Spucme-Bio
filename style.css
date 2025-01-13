@@ -1,0 +1,123 @@
+#sqr {
+    background-color: rgb(25, 24, 31);
+    width: 330px;
+    height: 530px;
+    border-radius: 15px;
+    margin: auto;
+    transform: translateY(85px);
+}
+
+
+body {
+    background-image: url('fon.jpg');
+    background-size: 600px, 900px; /* Изображение будет масштабироваться, чтобы покрыть весь экран */
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url(fon.jpg);
+    }
+}
+
+#div2 {
+    transform: translateY(-20px);
+}
+
+.bti {
+    border-radius: 100px;
+    background-color: rgb(25, 24, 31);
+    display: block;
+    transform: translate(300px, 25px);
+    border: 2px solid blue;
+    color: blue;
+    height: 23px;
+    width: 23px;
+
+}
+
+div {
+    user-select: none;
+}
+
+.img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    transform: translateY(-70px);
+}
+
+.spc {
+    color: white;
+    transform: translate(35px, -80px);
+}
+.spc2 {
+    color: gray;
+    transform: translate(90px, -90px);
+}
+
+.ctt {
+    color: white;
+    font-size: 15px;
+    transform: translate(20px, -50px);
+}
+
+.bt1 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(79, 79, 255);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transform: translate(15px, -30px);
+    border-radius: 8px;
+}
+.bt1:hover {
+        background-color: rgb(12, 12, 211);
+    }
+
+.bt2 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(79, 79, 255);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transform: translate(15px, -10px);
+    border-radius: 8px;
+}
+.bt2:hover {
+        background-color: rgb(12, 12, 211);;
+    }
+
+    .bt3 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(79, 79, 255);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transform: translate(15px, 10px);
+    border-radius: 8px;
+}
+.bt3:hover {
+        background-color: rgb(12, 12, 211);
+    }
+
+.bt4 {
+    width: 200px;
+    height: 35px;
+    background-color: gold;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transform: translate(65px, 38px);
+    border-radius: 35px;
+}
+
+.bt4:hover {
+    background-color: rgb(255, 229, 83);
+}
